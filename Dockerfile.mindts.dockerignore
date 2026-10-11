@@ -1,0 +1,11 @@
+# ## Executive summary (read this first)
+# Only implementation code and provenance enter the participant build context.
+# Exclude task data, outputs, credentials, Git history and development environments.
+**
+!Dockerfile.mindts
+!qfbench2_track_forecasting/
+!qfbench2_track_forecasting/**
+qfbench2_track_forecasting/**/__pycache__/
+qfbench2_track_forecasting/**/*.pyc
+!LICENSE
+!ARTIFACT_PROVENANCE.md
