@@ -26,7 +26,6 @@ def export_source(target: pathlib.Path) -> None:
             "Dockerfile.mindts.dockerignore",
             ".gitignore",
             ".github/workflows/mindts-dev-image.yml",
-            "docs/MINDTS-INTEGRATION.md",
             "tests/conftest.py",
             "tests/test_mindts_agent.py",
             "tests/test_mindts_submission.py",
